@@ -1,0 +1,132 @@
+/*:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+*/
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 0px 40px;
+}
+.head img{
+  height: 30px;
+}
+nav{
+  display: flex;
+  
+}
+nav, button{
+  width: 200px;
+  height: 35px;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+button.btn_l{
+  background-color: white;
+  color: #1481ff;
+  text-decoration: none;
+  border: 2px solid #3091ff;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+}
+button.btn_l:hover{
+  background-color: #3091ff;
+  color: #fff;
+}
+button.btn_s{
+  background-color: #3091ff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+}
+button.btn_s:hover{
+  background-color: #0044ff;
+  color: #fff;
+}
+.card{
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.card h2{
+  font-size: 60px;
+}
+.card img{
+  height: 400px;
+  max-width: 320px;
+  width: 500px;
+  margin: 30px 0px 0px 0px;
+  border-radius: 50%;
+}
+@media (max-width:480px) {
+  .card img{
+    height: 10px;
+    width: 4000px;
+  }
+}
